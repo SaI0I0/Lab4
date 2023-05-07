@@ -3,7 +3,9 @@ echo "Dostępne opcje:"
 echo "--date: wyświetla dzisiejszą datę"
 echo "--logs: tworzy 100 plików logx.txt, x – numer pliku od 1 – 100, w każdym 
 pliku wpisana jest jego nazwa, nazwa skryptu który go utworzył i dzisiejsza data"
-echo "--logs [liczba]: tworzy określoną liczbę plików logx.txt, x – numer pliku od 
-1 – liczba, w każdym pliku wpisana jest jego nazwa, nazwa skryptu który go 
-utworzył i dzisiejsza data"
 echo "--help: wyświetla dostępne opcje"
+echo "  -h, --help: wyświetla tą wiadomość"
+echo "  -l, --logs: tworzy 100 plików logx.txt, x – numer pliku od 1 – 100, w każdym 
+pliku wpisana jest jego nazwa, nazwa skryptu który go utworzył i dzisiejsza data"
+echo "  -d, --date: wyświetla dzisiejszą datę"
+echo "      --init: kopiuje repozytorium i dodaje je do PATH"
