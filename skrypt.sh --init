@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ "$1" != "--init" ]; then
+    echo "Usage: $0 --init"
+    exit 1
+fi
+
+
+git clone https://github.com/SaI0I0/Lab4.git .
+
+echo 'export PATH="$PATH:'"$PWD"'"' >> ~/.bashrc
+source ~/.bashrc
+
