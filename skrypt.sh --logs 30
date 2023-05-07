@@ -1,0 +1,4 @@
+#!/bin/bash
+for i in $(seq 1 $n); do
+    echo "Nazwa pliku: log$i.txt" > log$i.txt
+    echo "Nazwa skryptu: skrypt.sh" >> log$i.txt
