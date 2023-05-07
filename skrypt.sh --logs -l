@@ -3,3 +3,4 @@ for i in {1..100}; do
     echo "Nazwa skryptu: skrypt.sh" >> log$i.txt
     echo "Data utworzenia: $(date)" >> log$i.txt
 done
+
