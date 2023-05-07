@@ -9,3 +9,5 @@ echo "  -l, --logs: tworzy 100 plików logx.txt, x – numer pliku od 1 – 100,
 pliku wpisana jest jego nazwa, nazwa skryptu który go utworzył i dzisiejsza data"
 echo "  -d, --date: wyświetla dzisiejszą datę"
 echo "      --init: kopiuje repozytorium i dodaje je do PATH"
+
+
